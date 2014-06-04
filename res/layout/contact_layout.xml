@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B9B8B8" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/contactlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/customlayout"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_horizontal"
+                android:text="@string/directionEsgi"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/director" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/callDirector"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton"
+                    android:text="@string/call"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/mailDirector"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton_mail"
+                    android:text="@string/mail" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contactlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/customlayout"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_horizontal"
+                android:text="@string/ServicePedagogique"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CarolineP"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/callCarolineP"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton"
+                    android:text="@string/call"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/mailCarolineP"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton_mail"
+                    android:text="@string/mail" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/StephanieP" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/callStephanieP"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton"
+                    android:text="@string/call"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/mailStephanieP"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton_mail"
+                    android:text="@string/mail" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/MaylisL" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/callMaylisL"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton"
+                    android:text="@string/call"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/mailMaylisL"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton_mail"
+                    android:text="@string/mail" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/LucileM" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/callLucileM"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton"
+                    android:text="@string/call"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/mailLucileM"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton_mail"
+                    android:text="@string/mail" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contactlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/customlayout"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_horizontal"
+                android:text="@string/ServiceAdmissions"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ArnaudP" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/callArnaudP"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton"
+                    android:text="@string/call"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/mailArnaudP"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton_mail"
+                    android:text="@string/mail" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/contactlayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/customlayout"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_horizontal"
+                android:text="@string/ServiceRelation"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/DanielL" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/callDanielL"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton"
+                    android:text="@string/call"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/mailDanielL"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton_mail"
+                    android:text="@string/mail" />
+            </LinearLayout>
+
+           
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/AurelienM" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/callAurelienM"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton"
+                    android:text="@string/call"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/mailAurelienM"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton_mail"
+                    android:text="@string/mail" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/MayssaE" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/callMayssaE"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton"
+                    android:text="@string/call"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/mailMayssaE"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custombutton_mail"
+                    android:text="@string/mail" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
